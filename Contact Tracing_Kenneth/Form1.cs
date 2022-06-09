@@ -50,12 +50,13 @@ namespace Contact_Tracing_Kenneth
             file.WriteLine("Name: " + txtbox1stname.Text + txtboxmi.Text + txtboxsurname.Text);
             file.WriteLine("Address: " + txtboxstreet.Text + txtboxbarangay.Text + txtboxcity.Text);
             file.WriteLine("Contact: " + txtboxphonenum.Text + txtboxemail.Text);
+            file.WriteLine("Temperature: " + txtboxtemp.Text);
             file.Close();
         }
 
         private void restartbtn_Click(object sender, EventArgs e)
         {
-            Application.Restart ();
+            Application.Restart();
 
         }
 

@@ -59,6 +59,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.restartbtn = new System.Windows.Forms.Button();
+            this.txtboxtemp = new System.Windows.Forms.TextBox();
+            this.temp = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Template)).BeginInit();
             this.SuspendLayout();
             // 
@@ -303,7 +305,7 @@
             this.buttonsubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonsubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonsubmit.ForeColor = System.Drawing.Color.Cornsilk;
-            this.buttonsubmit.Location = new System.Drawing.Point(217, 427);
+            this.buttonsubmit.Location = new System.Drawing.Point(218, 427);
             this.buttonsubmit.Name = "buttonsubmit";
             this.buttonsubmit.Size = new System.Drawing.Size(192, 37);
             this.buttonsubmit.TabIndex = 27;
@@ -352,7 +354,7 @@
             this.restartbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.restartbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.restartbtn.ForeColor = System.Drawing.Color.Cornsilk;
-            this.restartbtn.Location = new System.Drawing.Point(21, 427);
+            this.restartbtn.Location = new System.Drawing.Point(32, 427);
             this.restartbtn.Name = "restartbtn";
             this.restartbtn.Size = new System.Drawing.Size(180, 37);
             this.restartbtn.TabIndex = 31;
@@ -360,12 +362,33 @@
             this.restartbtn.UseVisualStyleBackColor = false;
             this.restartbtn.Click += new System.EventHandler(this.restartbtn_Click);
             // 
+            // txtboxtemp
+            // 
+            this.txtboxtemp.Location = new System.Drawing.Point(153, 401);
+            this.txtboxtemp.Name = "txtboxtemp";
+            this.txtboxtemp.Size = new System.Drawing.Size(143, 20);
+            this.txtboxtemp.TabIndex = 34;
+            // 
+            // temp
+            // 
+            this.temp.AutoSize = true;
+            this.temp.BackColor = System.Drawing.SystemColors.GrayText;
+            this.temp.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.temp.ForeColor = System.Drawing.Color.Cornsilk;
+            this.temp.Location = new System.Drawing.Point(135, 385);
+            this.temp.Name = "temp";
+            this.temp.Size = new System.Drawing.Size(179, 15);
+            this.temp.TabIndex = 32;
+            this.temp.Text = "Temperature (in Celcius):";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
             this.ClientSize = new System.Drawing.Size(443, 472);
+            this.Controls.Add(this.txtboxtemp);
+            this.Controls.Add(this.temp);
             this.Controls.Add(this.restartbtn);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
@@ -437,6 +460,8 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button restartbtn;
+        private System.Windows.Forms.TextBox txtboxtemp;
+        private System.Windows.Forms.Label temp;
     }
 }
 
