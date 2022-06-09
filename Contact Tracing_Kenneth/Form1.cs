@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,27 @@ namespace Contact_Tracing_Kenneth
         }
 
         private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonsubmit_Click(object sender, EventArgs e)
+        {
+           StreamWriter file = new StreamWriter (@"C:\Users\DELL LATITUDE\Desktop\Contact Tracing Kenneth\contacttrace.txt", true);
+            file.WriteLine("Time : " + txtboxtime.Text + txtboxmonth.Text + txtboxday.Text + txtboxyear.Text);
+            file.WriteLine("Name: " + txtbox1stname.Text + txtboxmi.Text + txtboxsurname.Text);
+            file.WriteLine("Address: " + txtboxstreet.Text + txtboxbarangay.Text + txtboxcity.Text);
+            file.WriteLine("Contact: " + txtboxphonenum.Text + txtboxemail.Text);
+            file.Close();
+        }
+
+        private void restartbtn_Click(object sender, EventArgs e)
+        {
+            Application.Restart ();
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
