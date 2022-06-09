@@ -47,6 +47,7 @@ namespace Contact_Tracing_Kenneth
         {
             MessageBox.Show("Your response have been submited");
 
+            Application.Restart();
 
            StreamWriter file = new StreamWriter (@"C:\Users\DELL LATITUDE\Desktop\Contact Tracing Kenneth\contacttrace.txt", true);
             file.WriteLine("Time : " + txtboxtime.Text + txtboxmonth.Text + txtboxday.Text + txtboxyear.Text);
