@@ -42,18 +42,22 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtboxtime = new System.Windows.Forms.TextBox();
+            this.txtboxmonth = new System.Windows.Forms.TextBox();
+            this.txtboxyear = new System.Windows.Forms.TextBox();
+            this.txtbox1stname = new System.Windows.Forms.TextBox();
+            this.txtboxmi = new System.Windows.Forms.TextBox();
+            this.txtboxsurname = new System.Windows.Forms.TextBox();
+            this.txtboxstreet = new System.Windows.Forms.TextBox();
+            this.txtboxbarangay = new System.Windows.Forms.TextBox();
+            this.txtboxcity = new System.Windows.Forms.TextBox();
+            this.txtboxphonenum = new System.Windows.Forms.TextBox();
+            this.txtboxemail = new System.Windows.Forms.TextBox();
+            this.txtboxday = new System.Windows.Forms.TextBox();
+            this.buttonsubmit = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Template)).BeginInit();
             this.SuspendLayout();
             // 
@@ -208,89 +212,137 @@
             this.label12.Text = "Email:";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
-            // textBox1
+            // txtboxtime
             // 
-            this.textBox1.Location = new System.Drawing.Point(39, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(44, 20);
-            this.textBox1.TabIndex = 13;
+            this.txtboxtime.Location = new System.Drawing.Point(39, 63);
+            this.txtboxtime.Name = "txtboxtime";
+            this.txtboxtime.Size = new System.Drawing.Size(44, 20);
+            this.txtboxtime.TabIndex = 13;
             // 
-            // textBox2
+            // txtboxmonth
             // 
-            this.textBox2.Location = new System.Drawing.Point(97, 63);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(47, 20);
-            this.textBox2.TabIndex = 14;
+            this.txtboxmonth.Location = new System.Drawing.Point(97, 63);
+            this.txtboxmonth.Name = "txtboxmonth";
+            this.txtboxmonth.Size = new System.Drawing.Size(47, 20);
+            this.txtboxmonth.TabIndex = 14;
             // 
-            // textBox3
+            // txtboxyear
             // 
-            this.textBox3.Location = new System.Drawing.Point(176, 63);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(47, 20);
-            this.textBox3.TabIndex = 15;
+            this.txtboxyear.Location = new System.Drawing.Point(176, 63);
+            this.txtboxyear.Name = "txtboxyear";
+            this.txtboxyear.Size = new System.Drawing.Size(47, 20);
+            this.txtboxyear.TabIndex = 15;
             // 
-            // textBox4
+            // txtbox1stname
             // 
-            this.textBox4.Location = new System.Drawing.Point(39, 141);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(162, 20);
-            this.textBox4.TabIndex = 18;
+            this.txtbox1stname.Location = new System.Drawing.Point(39, 141);
+            this.txtbox1stname.Name = "txtbox1stname";
+            this.txtbox1stname.Size = new System.Drawing.Size(162, 20);
+            this.txtbox1stname.TabIndex = 18;
             // 
-            // textBox5
+            // txtboxmi
             // 
-            this.textBox5.Location = new System.Drawing.Point(204, 141);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(29, 20);
-            this.textBox5.TabIndex = 19;
+            this.txtboxmi.Location = new System.Drawing.Point(204, 141);
+            this.txtboxmi.Name = "txtboxmi";
+            this.txtboxmi.Size = new System.Drawing.Size(29, 20);
+            this.txtboxmi.TabIndex = 19;
             // 
-            // textBox6
+            // txtboxsurname
             // 
-            this.textBox6.Location = new System.Drawing.Point(239, 141);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(161, 20);
-            this.textBox6.TabIndex = 20;
+            this.txtboxsurname.Location = new System.Drawing.Point(239, 141);
+            this.txtboxsurname.Name = "txtboxsurname";
+            this.txtboxsurname.Size = new System.Drawing.Size(161, 20);
+            this.txtboxsurname.TabIndex = 20;
             // 
-            // textBox7
+            // txtboxstreet
             // 
-            this.textBox7.Location = new System.Drawing.Point(39, 238);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(112, 20);
-            this.textBox7.TabIndex = 21;
+            this.txtboxstreet.Location = new System.Drawing.Point(39, 238);
+            this.txtboxstreet.Name = "txtboxstreet";
+            this.txtboxstreet.Size = new System.Drawing.Size(112, 20);
+            this.txtboxstreet.TabIndex = 21;
             // 
-            // textBox8
+            // txtboxbarangay
             // 
-            this.textBox8.Location = new System.Drawing.Point(157, 238);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(115, 20);
-            this.textBox8.TabIndex = 22;
+            this.txtboxbarangay.Location = new System.Drawing.Point(157, 238);
+            this.txtboxbarangay.Name = "txtboxbarangay";
+            this.txtboxbarangay.Size = new System.Drawing.Size(115, 20);
+            this.txtboxbarangay.TabIndex = 22;
             // 
-            // textBox9
+            // txtboxcity
             // 
-            this.textBox9.Location = new System.Drawing.Point(276, 238);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(124, 20);
-            this.textBox9.TabIndex = 23;
+            this.txtboxcity.Location = new System.Drawing.Point(276, 238);
+            this.txtboxcity.Name = "txtboxcity";
+            this.txtboxcity.Size = new System.Drawing.Size(124, 20);
+            this.txtboxcity.TabIndex = 23;
             // 
-            // textBox10
+            // txtboxphonenum
             // 
-            this.textBox10.Location = new System.Drawing.Point(40, 325);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(143, 20);
-            this.textBox10.TabIndex = 24;
+            this.txtboxphonenum.Location = new System.Drawing.Point(40, 325);
+            this.txtboxphonenum.Name = "txtboxphonenum";
+            this.txtboxphonenum.Size = new System.Drawing.Size(143, 20);
+            this.txtboxphonenum.TabIndex = 24;
             // 
-            // textBox11
+            // txtboxemail
             // 
-            this.textBox11.Location = new System.Drawing.Point(202, 325);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(198, 20);
-            this.textBox11.TabIndex = 25;
+            this.txtboxemail.Location = new System.Drawing.Point(202, 325);
+            this.txtboxemail.Name = "txtboxemail";
+            this.txtboxemail.Size = new System.Drawing.Size(198, 20);
+            this.txtboxemail.TabIndex = 25;
             // 
-            // textBox12
+            // txtboxday
             // 
-            this.textBox12.Location = new System.Drawing.Point(150, 63);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(20, 20);
-            this.textBox12.TabIndex = 26;
+            this.txtboxday.Location = new System.Drawing.Point(150, 63);
+            this.txtboxday.Name = "txtboxday";
+            this.txtboxday.Size = new System.Drawing.Size(20, 20);
+            this.txtboxday.TabIndex = 26;
+            // 
+            // buttonsubmit
+            // 
+            this.buttonsubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonsubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonsubmit.ForeColor = System.Drawing.Color.Cornsilk;
+            this.buttonsubmit.Location = new System.Drawing.Point(126, 375);
+            this.buttonsubmit.Name = "buttonsubmit";
+            this.buttonsubmit.Size = new System.Drawing.Size(192, 37);
+            this.buttonsubmit.TabIndex = 27;
+            this.buttonsubmit.Text = "Submit";
+            this.buttonsubmit.UseVisualStyleBackColor = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.DimGray;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label13.Location = new System.Drawing.Point(236, 23);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(191, 15);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "AGARIN\'S SARI-SARI STORE";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.DimGray;
+            this.label14.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label14.Location = new System.Drawing.Point(241, 49);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(179, 19);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "CONTACT TRACING";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.DimGray;
+            this.label15.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label15.Location = new System.Drawing.Point(274, 68);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(93, 29);
+            this.label15.TabIndex = 30;
+            this.label15.Text = "FORM";
             // 
             // Form1
             // 
@@ -298,18 +350,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
             this.ClientSize = new System.Drawing.Size(443, 452);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.buttonsubmit);
+            this.Controls.Add(this.txtboxday);
+            this.Controls.Add(this.txtboxemail);
+            this.Controls.Add(this.txtboxphonenum);
+            this.Controls.Add(this.txtboxcity);
+            this.Controls.Add(this.txtboxbarangay);
+            this.Controls.Add(this.txtboxstreet);
+            this.Controls.Add(this.txtboxsurname);
+            this.Controls.Add(this.txtboxmi);
+            this.Controls.Add(this.txtbox1stname);
+            this.Controls.Add(this.txtboxyear);
+            this.Controls.Add(this.txtboxmonth);
+            this.Controls.Add(this.txtboxtime);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -347,18 +403,22 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtboxtime;
+        private System.Windows.Forms.TextBox txtboxmonth;
+        private System.Windows.Forms.TextBox txtboxyear;
+        private System.Windows.Forms.TextBox txtbox1stname;
+        private System.Windows.Forms.TextBox txtboxmi;
+        private System.Windows.Forms.TextBox txtboxsurname;
+        private System.Windows.Forms.TextBox txtboxstreet;
+        private System.Windows.Forms.TextBox txtboxbarangay;
+        private System.Windows.Forms.TextBox txtboxcity;
+        private System.Windows.Forms.TextBox txtboxphonenum;
+        private System.Windows.Forms.TextBox txtboxemail;
+        private System.Windows.Forms.TextBox txtboxday;
+        private System.Windows.Forms.Button buttonsubmit;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
     }
 }
 
