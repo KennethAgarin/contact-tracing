@@ -61,6 +61,8 @@
             this.restartbtn = new System.Windows.Forms.Button();
             this.txtboxtemp = new System.Windows.Forms.TextBox();
             this.temp = new System.Windows.Forms.Label();
+            this.txtpas = new System.Windows.Forms.TextBox();
+            this.Adminbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Template)).BeginInit();
             this.SuspendLayout();
             // 
@@ -381,12 +383,34 @@
             this.temp.TabIndex = 32;
             this.temp.Text = "Temperature (in Celcius):";
             // 
+            // txtpas
+            // 
+            this.txtpas.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.txtpas.Location = new System.Drawing.Point(32, 22);
+            this.txtpas.Name = "txtpas";
+            this.txtpas.Size = new System.Drawing.Size(104, 20);
+            this.txtpas.TabIndex = 35;
+            this.txtpas.Text = "Password";
+            // 
+            // Adminbtn
+            // 
+            this.Adminbtn.Font = new System.Drawing.Font("Lucida Bright", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Adminbtn.Location = new System.Drawing.Point(138, 22);
+            this.Adminbtn.Name = "Adminbtn";
+            this.Adminbtn.Size = new System.Drawing.Size(90, 20);
+            this.Adminbtn.TabIndex = 36;
+            this.Adminbtn.Text = "Admin";
+            this.Adminbtn.UseVisualStyleBackColor = true;
+            this.Adminbtn.Click += new System.EventHandler(this.Adminbtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
             this.ClientSize = new System.Drawing.Size(443, 472);
+            this.Controls.Add(this.Adminbtn);
+            this.Controls.Add(this.txtpas);
             this.Controls.Add(this.txtboxtemp);
             this.Controls.Add(this.temp);
             this.Controls.Add(this.restartbtn);
@@ -462,6 +486,8 @@
         private System.Windows.Forms.Button restartbtn;
         private System.Windows.Forms.TextBox txtboxtemp;
         private System.Windows.Forms.Label temp;
+        private System.Windows.Forms.TextBox txtpas;
+        private System.Windows.Forms.Button Adminbtn;
     }
 }
 

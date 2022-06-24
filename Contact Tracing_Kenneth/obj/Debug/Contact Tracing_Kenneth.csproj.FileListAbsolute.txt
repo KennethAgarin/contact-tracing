@@ -9,3 +9,4 @@ C:\Users\DELL LATITUDE\Desktop\Contact Tracing Kenneth\Contact Tracing_Kenneth\o
 C:\Users\DELL LATITUDE\Desktop\Contact Tracing Kenneth\Contact Tracing_Kenneth\obj\Debug\Contact Tracing_Kenneth.csproj.CoreCompileInputs.cache
 C:\Users\DELL LATITUDE\Desktop\Contact Tracing Kenneth\Contact Tracing_Kenneth\obj\Debug\Contact Tracing_Kenneth.exe
 C:\Users\DELL LATITUDE\Desktop\Contact Tracing Kenneth\Contact Tracing_Kenneth\obj\Debug\Contact Tracing_Kenneth.pdb
+C:\Users\DELL LATITUDE\Desktop\Contact Tracing Kenneth\Contact Tracing_Kenneth\obj\Debug\Contact_Tracing_Kenneth.Form2.resources

@@ -68,5 +68,19 @@ namespace Contact_Tracing_Kenneth
         {
 
         }
+
+        private void Adminbtn_Click(object sender, EventArgs e)
+        {
+            String pas = txtpas.Text;
+            if (pas == "KLA0719")
+            {
+                Form2  info = new Form2();
+                info.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Wrong password");
+            }
+        }
     }
 }
