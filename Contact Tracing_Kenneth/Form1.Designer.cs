@@ -63,6 +63,7 @@
             this.temp = new System.Windows.Forms.Label();
             this.txtpas = new System.Windows.Forms.TextBox();
             this.Adminbtn = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Template)).BeginInit();
             this.SuspendLayout();
             // 
@@ -385,12 +386,12 @@
             // 
             // txtpas
             // 
-            this.txtpas.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.txtpas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtpas.Location = new System.Drawing.Point(32, 22);
             this.txtpas.Name = "txtpas";
             this.txtpas.Size = new System.Drawing.Size(104, 20);
             this.txtpas.TabIndex = 35;
-            this.txtpas.Text = "Password";
+            this.txtpas.Tag = "Password";
             // 
             // Adminbtn
             // 
@@ -403,12 +404,26 @@
             this.Adminbtn.UseVisualStyleBackColor = true;
             this.Adminbtn.Click += new System.EventHandler(this.Adminbtn_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Gray;
+            this.label16.Font = new System.Drawing.Font("Lucida Bright", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.Control;
+            this.label16.Location = new System.Drawing.Point(34, 6);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(61, 14);
+            this.label16.TabIndex = 37;
+            this.label16.Text = "Password:";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
             this.ClientSize = new System.Drawing.Size(443, 472);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.Adminbtn);
             this.Controls.Add(this.txtpas);
             this.Controls.Add(this.txtboxtemp);
@@ -488,6 +503,7 @@
         private System.Windows.Forms.Label temp;
         private System.Windows.Forms.TextBox txtpas;
         private System.Windows.Forms.Button Adminbtn;
+        private System.Windows.Forms.Label label16;
     }
 }
 

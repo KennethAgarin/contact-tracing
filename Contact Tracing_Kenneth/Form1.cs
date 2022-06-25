@@ -82,5 +82,10 @@ namespace Contact_Tracing_Kenneth
                 MessageBox.Show("Wrong password");
             }
         }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
